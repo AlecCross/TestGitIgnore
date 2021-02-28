@@ -6,7 +6,7 @@
 *.mp4
 
 #Работает для файла без разрешения
-TestFile4
+<p>TestFile4</p>
 
 #Работает для файла без разширение и в любой папке не выше файла .gitignore
 dsgsadgsadgasdgasdgasdg

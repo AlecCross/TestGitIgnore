@@ -9,10 +9,10 @@
 <p>TestFile4</p>
 
 #Работает для файла без разширение и в любой папке не выше файла .gitignore
-dsgsadgsadgasdgasdgasdg
+<p>dsgsadgsadgasdgasdgasdg</p>
 
 #Работает - не игнорит все файлы но игнорит все папки
-Folder2/*.*
+<p>Folder2/*.*</p>
 
 #Работает
 Folder3 - не добавить саму папку вообще

@@ -11,26 +11,26 @@
 #Работает для файла без разширение и в любой папке не выше файла .gitignore
 <p>dsgsadgsadgasdgasdgasdg</p>
 
-#Работает - не игнорит все файлы но игнорит все папки
+#Работает - не игнорит все файлы но игнорит все вложенные папки
 <p>Folder2/*.*</p>
 
 #Работает
 Folder3 - не добавить саму папку вообще
 
 #Работает - не добавить саму папку вообще
-Folder5/ 
+<p>Folder5/</p>
 
 #Не работает для файла без разширения
-TestFile2.*
+<p>TestFile2.*</p>
 
 #Не работает для файла без разширения и для любых файлов как и выше TestFile2.*
-TestFolder\TestFile2.*
+<p>TestFolder\TestFile2.*</p>
 
 #Не Работает для папок и файлов, нужно убрать слеш перед папкой или файлом
-/Folder4
+<p>/Folder4</p>
 
 #Не работает
-TestFolder\New folder\New Архив WinRAR.rar
+<p>TestFolder\New folder\New Архив WinRAR.rar</p>
 
 #Не работает для файла без разширения - нужно указать только имя файла без вложенности "TestFile"
-TestFolder\TestFile
+<p>TestFolder\TestFile</p>

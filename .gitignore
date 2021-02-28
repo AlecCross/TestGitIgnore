@@ -1,23 +1,34 @@
-#Comment
+#Commentы для https://github.com/AlecCross/TestGitIgnore.git
 
-TestFolder\New folder\New Архив WinRAR.rar
-
-TestFolder\TestFile
-
+#Работает для всех файлов данного типа во всех папках не выше файла .gitignore
 *.mp4
 
-TestFile2.*
-
-TestFolder\TestFile2.*
-
+#Работает для файла без разрешения
 TestFile4
 
+#Работает для файла без разширение и в любой папке не выше файла .gitignore
 dsgsadgsadgasdgasdgasdg
 
+#Работает - не игнорит все файлы но игнорит все папки
 Folder2/*.*
 
-Folder3
+#Работает
+Folder3 - не добавить саму папку вообще
 
+#Работает - не добавить саму папку вообще
+Folder5/ 
+
+#Не работает для файла без разширения
+TestFile2.*
+
+#Не работает для файла без разширения и для любых файлов как и выше TestFile2.*
+TestFolder\TestFile2.*
+
+#Не Работает для папок и файлов, нужно убрать слеш перед папкой или файлом
 /Folder4
 
-Folder5/
+#Не работает
+TestFolder\New folder\New Архив WinRAR.rar
+
+#Не работает для файла без разширения - нужно указать только имя файла без вложенности "TestFile"
+TestFolder\TestFile

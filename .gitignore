@@ -7,3 +7,5 @@ TestFolder\TestFile
 *.mp4
 
 TestFile2.*
+
+TestFolder\TestFile2.*
